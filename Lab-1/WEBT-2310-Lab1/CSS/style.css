@@ -1,0 +1,973 @@
+img {
+  max-width: 100%;
+}
+
+body {
+  background-color: rgb(247, 247, 232);
+  border: solid 15px rgb(157, 173, 127);
+}
+
+* {
+  box-sizing: border-box;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+
+/* --------------------------------------------------------------*/
+/* Mobile Style */
+[class*="col-"] {
+  width: 100%;
+}
+
+header {
+  display: block;
+  width: 100%;
+}
+
+p {
+  font-family: 'Courgette', cursive;
+  text-align: center;
+  color: rgb(157, 173, 127);
+}
+
+
+nav {
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav li a {
+  display: block;
+  color: rgb(157, 173, 127);
+  font-size: 14px;
+  font-family: 'Courgette', cursive;
+  text-decoration: none;
+  padding: 0 10px 0 10px;
+  padding: 10px 10px 10px 10px;
+}
+
+li a:hover {
+  color: rgb(85, 113, 116);
+}
+
+.banner {
+  width: 100%;
+  display: block;
+  position: relative;
+}
+
+.banner-image {
+  width: 100%;
+}
+
+.centered {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  text-shadow: 2px 2px 3px black, 0 0 30px gray, 0 0 10px darkgray;
+  font-family: 'Courgette', cursive;
+  font-size: 28px;
+  color: rgb(247, 247, 232);
+  padding-bottom: 10px;
+}
+
+.intro {
+  font-family: 'Courgette', cursive;
+  text-align: center;
+  color: rgb(157, 173, 127);
+}
+.intro-text {
+  font-size: 15px;
+  margin: 20px;
+  padding: 0 30px 0 30px;
+  line-height: 17px;
+}
+
+hr {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+  margin-top: 30px;
+}
+hr.style-seven {
+    overflow: visible; /* For IE */
+    height: 30px;
+    border-style: solid;
+    border-color: rgb(157, 173, 127);
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+}
+hr.style-seven:before { /* Not really supposed to work, but does */
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: rgb(157, 173, 127);
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+}
+
+section {
+  display: block;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.container-a {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 10px 0 10px 0;
+  background-color: rgb(247, 247, 232);
+  float: left;
+}
+
+.images {
+  display: block;
+  position: relative;
+  width: 70%;
+  padding-bottom: 10px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.text-a {
+  display: block;
+  position: absolute;
+  padding: 10px 10px 10px 10px;
+  top: 30%;
+  left: 4%;
+  font-size: 15px;
+  font-family: 'Courgette', cursive;
+  color: rgb(247, 247, 232);
+  text-shadow: 1px 1px 2px black, 0 0 25px gray, 0 0 5px darkgray;
+}
+
+.container-c {
+ display: block;
+  position: relative;
+  width: 50%;
+  height: auto;
+  margin: 0px;
+  padding: 20px 0 20px 0;
+  background-color: rgb(247, 247, 232);
+  float: right;
+
+}
+.container-d {
+  display: block;
+  position: relative;
+  width: 50%;
+  height: auto;
+  margin: 0px;
+  padding: 20px 0 20px 0;
+  background-color: rgb(247, 247, 232);
+  float: left;
+}
+
+.text-b {
+  display: block;
+  position: absolute;
+  font-size: 10px;
+  top: 30%;
+  left: 5%;
+  color: rgb(247, 247, 232);
+  padding: 10px;
+  text-shadow: 1px 1px 2px black, 0 0 25px gray, 0 0 5px darkgray;
+}
+
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* ----------------address information-----------------------*/
+.box {
+  float: left;
+  width: 50%;
+  padding: 10px 0 5px 0;
+  height: 70px;
+  background-color: rgb(247, 247, 232);
+
+}
+.info {
+  font-size: 10px;
+}
+
+.nursery {
+  display: block;
+  width: 100%;
+  font-family: 'Courgette', cursive;
+  text-align: center;
+}
+
+.nursery-text {
+  font-size: 15px;
+}
+
+.pexels {
+  font-size: 10px;
+  color: rgb(157, 173, 127);
+  text-decoration: none;
+}
+
+
+/* ---------------social media icons---------------------------*/
+
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: none;
+  /*color: rgb(157, 173, 127);*/
+  color: #3B5998;
+}
+
+.fa-twitter {
+  background: none;
+  /*color: rgb(157, 173, 127);*/
+  color: #55ACEE
+}
+
+.fa-instagram {
+  background: none;
+  color: #125688;
+}
+
+.fa-pinterest {
+  background: none;
+  color: #cb2027;
+}
+
+footer {
+  display: block;
+  position: bottom;
+  background-color: rgb(247, 247, 232);
+}
+
+.social {
+  display: block;
+  position: relative;
+  text-align: center;
+  padding: 10px;
+  width: 100%;
+}
+
+.foot-info {
+  display: block;
+  text-align: center;
+  font-family: 'Courgette', cursive;
+  font-size: 12px;
+  color: rgb(157, 173, 127);
+  padding-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+/*-------------------------------------------------------------------------------*/
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+  /*font-size 80px;*/
+  .col-s-1 {
+    width: 8.33%;
+  }
+  .col-s-2 {
+    width: 16.66%;
+  }
+  .col-s-3 {
+    width: 25%;
+  }
+  .col-s-4 {
+    width: 33.33%;
+  }
+  .col-s-5 {
+    width: 41.66%;
+  }
+  .col-s-6 {
+    width: 50%;
+  }
+  .col-s-7 {
+    width: 58.33%;
+  }
+  .col-s-8 {
+    width: 66.66%;
+  }
+  .col-s-9 {
+    width: 75%;
+  }
+  .col-s-10 {
+    width: 83.33%;
+  }
+  .col-s-11 {
+    width: 91.66%;
+  }
+  .col-s-12 {
+    width: 100%;
+  }
+
+body {
+  background-color: rgb(247, 247, 232);
+  border: solid 20px rgb(157, 173, 127);
+}
+
+header {
+  display: block;
+  width: 100%;
+}
+
+p {
+  font-family: 'Courgette', cursive;
+  text-align: center;
+  color: rgb(157, 173, 127);
+}
+
+nav {
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav li a {
+  display: block;
+  color: rgb(157, 173, 127);
+  font-size: 20px;
+  font-family: 'Courgette', cursive;
+  text-decoration: none;
+  padding: 0 10px 0 10px;
+  padding: 10px 10px 10px 10px;
+}
+
+li a:hover {
+  color: rgb(85, 113, 116);
+}
+
+.banner {
+  width: 100%;
+  display: block;
+  position: relative;
+}
+
+.banner-image {
+  width: 100%;
+}
+
+.centered {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  text-shadow: 2px 2px 3px black, 0 0 30px gray, 0 0 10px darkgray;
+  font-family: 'Courgette', cursive;
+  font-size: 45px;
+  color: rgb(247, 247, 232);
+  padding-bottom: 10px;
+}
+
+.intro {
+  font-family: 'Courgette', cursive;
+  text-align: center;
+  color: rgb(157, 173, 127);
+}
+.intro-text {
+  font-size: 30px;
+  line-height: 35px;
+  margin: 30px;
+  padding: 40px;
+}
+
+.nursery {
+  display: block;
+  width: 100%;
+  font-family: 'Courgette', cursive;
+  text-align: center;
+}
+
+.nursery-text {
+  font-size: 25px;
+}
+
+/* ---------------------------horizonal line -------------------------*/
+hr.style-seven {
+  overflow: visible; /* For IE */
+  height: 30px;
+  border-style: solid;
+  border-color: rgb(157, 173, 127);
+  border-width: 1px 0 0 0;
+  border-radius: 20px;
+}
+hr.style-seven:before { /* Not really supposed to work, but does */
+  display: block;
+  content: "";
+  height: 30px;
+  margin-top: -31px;
+  border-style: solid;
+  border-color: rgb(157, 173, 127);
+  border-width: 0 0 1px 0;
+  border-radius: 20px;
+}
+
+section {
+  display: block;
+  width: 100%;
+}
+
+.container-a {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 10px 0 10px 0;
+  background-color: rgb(247, 247, 232);
+  float: left;
+}
+
+.images {
+  display: block;
+  position: relative;
+  width: 80%;
+  padding-bottom: 20px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.text-a {
+  display: block;
+  position: absolute;
+  padding: 10px 10px 10px 10px;
+  top: 50%;
+  left: 2%;
+  font-size: 20px;
+  font-family: 'Courgette', cursive;
+  color: rgb(247, 247, 232);
+  text-shadow: 1px 1px 2px black, 0 0 25px gray, 0 0 5px darkgray;
+}
+.container-c {
+  display: block;
+   position: relative;
+   width: 50%;
+   height: auto;
+   margin: 0px;
+   padding: 30px 0 30px 0;
+   background-color: rgb(247, 247, 232);
+   float: right;
+ 
+ }
+ .container-d {
+   display: block;
+   position: relative;
+   width: 50%;
+   height: auto;
+   margin: 0px;
+   padding: 30px 0 30px 0;
+   background-color: rgb(247, 247, 232);
+   float: left;
+ }
+ 
+ .text-b {
+   display: block;
+   position: absolute;
+   font-size: 15px;
+   top: 30%;
+   left: 5%;
+   color: rgb(247, 247, 232);
+   padding: 10px;
+   text-shadow: 1px 1px 2px black, 0 0 25px gray, 0 0 5px darkgray;
+ }
+
+
+
+/* ----------------address information-----------------------*/
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+.container-b {
+  display: block;
+  position: relative;
+  width: 100%;
+}
+.box {
+  float: left;
+  width: 50%;
+  padding: 10px 10px 10px 10px;
+  height: 100px;
+  background-color: rgb(247, 247, 232);
+
+}
+.info {
+  font-size: 15px;
+}
+.pexels {
+  font-size: 15px;
+  color: rgb(157, 173, 127);
+  text-decoration: none;
+}
+
+
+
+/* ---------------social media icons---------------------------*/
+/* ---------------footer---------------------------*/
+.social {
+  display: block;
+  text-align: center;
+  padding: 10px;
+  width: 100%;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 80px;
+  width: 100px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+
+
+.fa-facebook {
+  background: none;
+  color: #3B5998;
+}
+
+.fa-twitter {
+  background: none;
+  color: #55ACEE
+}
+
+.fa-instagram {
+  background: none;
+  color: #125688;
+}
+
+.fa-pinterest {
+  background: none;
+  color: #cb2027;
+}
+
+
+footer {
+  display: block;
+  position: bottom;
+  background-color: rgb(247, 247, 232);
+}
+
+.social {
+  display: block;
+  position: relative;
+  text-align: center;
+  padding: 10px;
+  width: 100%;
+}
+
+.foot-info {
+  display: block;
+  text-align: center;
+  font-family: 'Courgette', cursive;
+  font-size: 12px;
+  color: rgb(157, 173, 127);
+  padding-bottom: 20px;
+}
+}
+
+
+
+
+
+/*----------------------------------------------*/
+@media only screen and (min-width: 850px) {
+
+  /* For desktop: */
+  .col-1 {
+    width: 8.33%;
+  }
+  .col-2 {
+    width: 16.66%;
+  }
+  .col-3 {
+    width: 25%;
+  }
+  .col-4 {
+    width: 33.33%;
+  }
+  .col-5 {
+    width: 41.66%;
+  }
+  .col-6 {
+    width: 50%;
+  }
+  .col-7 {
+    width: 58.33%;
+  }
+  .col-8 {
+    width: 66.66%;
+  }
+  .col-9 {
+    width: 75%;
+  }
+  .col-10 {
+    width: 83.33%;
+  }
+  .col-11 {
+    width: 91.66%;
+  }
+  .col-12 {
+    width: 100%;
+  }
+
+  body {
+    background-color: rgb(247, 247, 232);
+    border: solid 40px rgb(157, 173, 127);
+  }
+  
+  header {
+    display: block;
+    width: 100%;
+  }
+  
+  p {
+    font-family: 'Courgette', cursive;
+    text-align: center;
+    color: rgb(157, 173, 127);
+  }
+  
+  nav {
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+  }
+  
+  nav li a {
+    display: block;
+    color: rgb(157, 173, 127);
+    font-size: 40px;
+    font-family: 'Courgette', cursive;
+    text-decoration: none;
+    padding: 0 20px 0 20px;
+    padding: 20px 20px 20px 20px;
+  }
+  
+  li a:hover {
+    color: rgb(85, 113, 116);
+  }
+
+  .banner {
+    width: 100%;
+    display: block;
+    position: relative;
+  }
+  
+  .banner-image {
+    width: 100%;
+  }
+  
+  .centered {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    text-shadow: 2px 2px 3px black, 0 0 30px gray, 0 0 10px darkgray;
+    font-family: 'Courgette', cursive;
+    font-size: 60px;
+    color: rgb(247, 247, 232);
+    padding-bottom: 10px;
+  }
+
+  .intro {
+    font-family: 'Courgette', cursive;
+    text-align: center;
+    color: rgb(157, 173, 127);
+  }
+  .intro-text {
+    font-size: 50px;
+    line-height: 60px;
+    margin: 70px;
+    padding: 50px;
+  }
+
+  .nursery {
+    display: block;
+    width: 100%;
+    font-family: 'Courgette', cursive;
+    text-align: center;
+  }
+  
+  .nursery-text {
+    font-size: 40px;
+  }
+
+  hr.style-seven {
+    overflow: visible; /* For IE */
+    height: 30px;
+    border-style: solid;
+    border-color: rgb(157, 173, 127);
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+}
+hr.style-seven:before { /* Not really supposed to work, but does */
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: rgb(157, 173, 127);
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+}
+
+section {
+  display: block;
+  width: 100%;
+}
+
+.container-a {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 20px 0 20px 0;
+  background-color: rgb(247, 247, 232);
+  float: left;
+}
+
+.images {
+  display: block;
+  position: relative;
+  width: 85%;
+  padding-bottom: 60px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.text-a {
+  display: block;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  top: 40%;
+  left: 2%;
+  font-size: 50px;
+  font-family: 'Courgette', cursive;
+  color: rgb(247, 247, 232);
+  text-shadow: 3px 3px 4px black, 0 0 35px gray, 0 0 15px darkgray;
+}
+
+.container-b {
+  display: block;
+  position: relative;
+  width: 100%;
+}
+
+.container-c {
+  display: block;
+   position: relative;
+   width: 50%;
+   height: auto;
+   margin: 0px;
+   padding: 30px 0 30px 0;
+   background-color: rgb(247, 247, 232);
+   float: right;
+ 
+ }
+ .container-d {
+   display: block;
+   position: relative;
+   width: 50%;
+   height: auto;
+   margin: 0px;
+   padding: 30px 0 30px 0;
+   background-color: rgb(247, 247, 232);
+   float: left;
+ }
+ 
+ .text-b {
+   display: block;
+   position: absolute;
+   font-size: 25px;
+   top: 30%;
+   left: 5%;
+   color: rgb(247, 247, 232);
+   padding: 10px;
+   text-shadow: 3px 3px 4px black, 0 0 35px gray, 0 0 15px darkgray;
+ }
+
+
+.box {
+  float: left;
+  width: 50%;
+  padding: 20px 10px 20px 10px;
+  height: 200px;
+  background-color: rgb(247, 247, 232);
+}
+.info {
+  font-size: 25px;
+}
+.pexels {
+  font-size: 25px;
+  color: rgb(157, 173, 127);
+  text-decoration: none;
+}
+
+.social {
+  display: block;
+  text-align: center;
+  padding: 10px;
+  width: 100%;
+}
+
+
+.fa {
+  padding: 20px;
+  font-size: 90px;
+  width: 120px;
+  margin-left: auto;
+  margin-right: auto;
+  text-decoration: none;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: none;
+  /*color: rgb(157, 173, 127);*/
+  color: #3B5998;
+}
+
+.fa-twitter {
+  background: none;
+  /*color: rgb(157, 173, 127);*/
+  color: #55ACEE
+}
+
+.fa-instagram {
+  background: none;
+  color: #125688;
+}
+
+.fa-pinterest {
+  background: none;
+  color: #cb2027;
+}
+/* ---------------------------horizonal line -------------------------*/
+hr {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+  margin-top: 30px;
+}
+hr.style-seven {
+    overflow: visible; /* For IE */
+    height: 30px;
+    border-style: solid;
+    border-color: rgb(157, 173, 127);
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+}
+hr.style-seven:before { /* Not really supposed to work, but does */
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: rgb(157, 173, 127);
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+}
+
+/* ---------------footer---------------------------*/
+
+footer {
+  display: block;
+  position: bottom;
+  background-color: rgb(247, 247, 232);
+}
+
+.social {
+  display: block;
+  position: relative;
+  text-align: center;
+  padding: 10px;
+  width: 100%;
+}
+
+.foot-info {
+  display: block;
+  text-align: center;
+  font-family: 'Courgette', cursive;
+  font-size: 17px;
+  color: rgb(157, 173, 127);
+  padding-bottom: 20px;
+}
+
+}
