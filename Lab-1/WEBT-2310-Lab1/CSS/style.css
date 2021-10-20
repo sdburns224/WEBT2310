@@ -559,12 +559,7 @@ section {
 
 /* ---------------social media icons---------------------------*/
 /* ---------------footer---------------------------*/
-.social {
-  display: block;
-  text-align: center;
-  padding: 10px;
-  width: 100%;
-}
+
 
 .fa {
   padding: 20px;
@@ -605,7 +600,6 @@ section {
 
 footer {
   display: block;
-  position: bottom;
   background-color: rgb(247, 247, 232);
 }
 
@@ -616,6 +610,7 @@ footer {
   padding: 10px;
   width: 100%;
 }
+
 
 .foot-info {
   display: block;
@@ -876,13 +871,6 @@ section {
   text-decoration: none;
 }
 
-.social {
-  display: block;
-  text-align: center;
-  padding: 10px;
-  width: 100%;
-}
-
 
 .fa {
   padding: 20px;
@@ -948,7 +936,6 @@ hr.style-seven:before { /* Not really supposed to work, but does */
 
 footer {
   display: block;
-  position: bottom;
   background-color: rgb(247, 247, 232);
 }
 

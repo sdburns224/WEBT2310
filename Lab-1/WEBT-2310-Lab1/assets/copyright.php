@@ -1,0 +1,2 @@
+<p class="CR-header">Spring Garden Nursery</p>
+<p class="CR-footer">&copy;<?php echo date('Y');?> <a href="http://susandburns.com/" target="_blank">Susan Burns</a> of <a href="http://springgradennursery.com" target="_blank">springgradennursery.com</a></>
