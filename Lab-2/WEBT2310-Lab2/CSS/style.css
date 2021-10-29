@@ -1,0 +1,1049 @@
+img {
+    max-width: 100%;
+}
+
+body {
+    background-color: rgb(200,198,198);
+    border: solid 15px rgb(75,101,135);
+    font-family: 'Handlee', cursive;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+
+  /* --------------------------------------------------------------*/
+/* Mobile Style */
+[class*="col-"] {
+    width: 100%;
+  }
+
+
+  p {
+    font-family: 'Handlee', cursive;
+    text-align: center;
+    color: rgb(0,0,0);
+    
+  }
+
+  
+
+  /* ----------------------- Header ----------------------*/
+  header {
+    display: block;
+    width: 100%;
+}
+
+  .header-image {
+      margin-bottom: 0;
+  }
+
+  .title {
+      text-align: center;
+      font-size: 25px;
+  }
+
+  nav {
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+  }
+  
+  nav li a {
+    display: block;
+    color: rgb(0,0,0);
+    font-size: 14px;
+    font-family: 'Handlee', cursive;
+    text-decoration: none;
+    padding: 0 10px 0 10px;
+   
+  }
+  
+  li a:hover {
+    color: rgb(85, 113, 116);
+  }
+  
+
+  hr {
+    border-top: 2px solid rgb(75,101,135);
+    width: 75%;
+  }
+
+  /* --------------------------Container1 -----------------*/
+
+  .container1 {
+      display: block;
+      position: relative;
+  }
+
+  .title1 {
+      display: block;
+      font-size: 20px;
+      margin-bottom: 10px;
+  }
+  .text1 {
+      display: block;
+      text-align: center;
+      margin: 0px 20px 10px 20px;
+  }
+
+  .adoption {
+    display: block;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+  }
+
+  /* ------------------------ Container2 -----------------*/
+  .container2 {
+      display: block;
+      position: relative;
+  }
+
+  .title2 {
+      display: block;
+      font-size: 22px;
+      text-align: center;
+      margin-bottom: 0;
+      padding-bottom: 0;
+  }
+
+  .home1 {
+      display: block;
+      position: relative;
+      width: 75%;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 0;
+      margin-bottom: 10px;
+  }
+
+  /* ---------------------- Container3 -------------------*/
+  .container3{
+      display: block;
+      position: relative;
+  }
+  .home2 {
+      display: block;
+      width: 75%;
+      margin: 0px auto;
+
+  }
+  .text3 {
+      margin: 10px auto 0px auto;
+      font-size: 20px;
+  }
+
+  .group2 {
+    display: none;
+  }
+  .home3 {
+    display: block;
+      width: 50%;
+      margin: 0px auto;
+      padding: 20px 15px 0 15px;
+      float: left;
+  
+  }
+  
+  .text3 {
+    display: none;
+  }
+  
+  .group3 {
+    display: none;
+  }
+  .group4 {
+    display: none;
+  }
+
+   /* ---------------- volunteer --------*/
+.container-vol {
+  display: block;
+  position: relative;
+  margin: 10px 20px 10px 20px;
+  text-align: center;
+}
+.group-vol {
+ display: inline-block;
+}
+.vol {
+  width: 45%;
+  padding: 10px;
+}
+.caption-vol {
+  display: block;
+}
+.text-vol {
+  display: inline-block;
+  font-size: 15px;
+  margin: 0;
+  width: 45%;
+}
+
+ .container-vol1 {
+  display: none;
+}
+
+
+ /* ---------------- volunteer --------*/
+
+ /* ---------------- about ------------*/
+ .contact {
+  display: block;
+  text-align: center;
+  font-size: 15px;
+}
+
+.address {
+  display: block;
+  text-align: center;
+  font-size: 15px;
+}
+
+.about-image {
+  display: block;
+  text-align: center;
+  width: 100%;
+}
+/* ---------------- about ------------*/
+
+  /* --------------------- social media ---------------------*/
+  
+  .foot-title {
+      display: block;
+      text-align: center;
+      font-size: 12px;
+      margin-bottom: 0;
+  }
+  
+  .social {
+    display: block;
+    position: relative;
+    text-align: center;
+    margin: 0;
+    width: 100%;
+  }
+  
+  
+  .fa {
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  .fa:hover {
+    opacity: 0.7;
+  }
+  .fa-facebook {
+    background: none;
+    /*color: rgb(157, 173, 127);*/
+    color: #3B5998;
+  }
+  .fa-twitter {
+    background: none;
+    /*color: rgb(157, 173, 127);*/
+    color: #55ACEE
+  }
+  .fa-instagram {
+    background: none;
+    color: #125688;
+  }
+  .fa-pinterest {
+    background: none;
+    color: #cb2027;
+  }
+  /* --------------------- social media ---------------------*/
+
+  /* --------------------- Footer ---------------------*/
+  footer {
+    display: block;
+    background-color: rgb(200,198,198);
+    border-top: solid 1px rgb(75,101,135);
+    margin: 0px 20px 0 20px;
+    
+    
+  }
+  .foot-info {
+    display: block;
+    text-align: center;
+    font-family: 'Courgette', cursive;
+    font-size: 8px;
+    color: rgb(75,101,135);
+    padding: 15px;
+  }
+  /* --------------------- Footer ---------------------*/
+
+
+
+  /* ------------------- Tablet -----------------*/
+  /* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 700px) {
+
+    /*font-size 80px;*/
+    .col-s-1 {
+      width: 8.33%;
+    }
+    .col-s-2 {
+      width: 16.66%;
+    }
+    .col-s-3 {
+      width: 25%;
+    }
+    .col-s-4 {
+      width: 33.33%;
+    }
+    .col-s-5 {
+      width: 41.66%;
+    }
+    .col-s-6 {
+      width: 50%;
+    }
+    .col-s-7 {
+      width: 58.33%;
+    }
+    .col-s-8 {
+      width: 66.66%;
+    }
+    .col-s-9 {
+      width: 75%;
+    }
+    .col-s-10 {
+      width: 83.33%;
+    }
+    .col-s-11 {
+      width: 91.66%;
+    }
+    .col-s-12 {
+      width: 100%;
+    }
+
+  
+  /* ----------------------- Header ----------------------*/
+  header {
+    display: block;
+    width: 100%;
+    
+}
+
+  .header-image {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 0;
+  }
+
+  .title {
+      text-align: center;
+      font-size: 45px;
+  }
+
+  nav {
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+  }
+  
+  nav li a {
+    display: block;
+    color: rgb(0,0,0);
+    font-size: 25px;
+    font-family: 'Handlee', cursive;
+    text-decoration: none;
+    padding: 0 10px 0 10px;
+   
+  }
+  
+  li a:hover {
+    color: rgb(85, 113, 116);
+  }
+  
+
+  /* --------------------------Container1 -----------------*/
+
+.title1 {
+  display: block;
+  font-size: 30px;
+  margin-bottom: 10px;
+    
+}
+.text1 {
+  display: block;
+  font-size: 22px;
+  text-align: center;
+  margin: 0px 35px 0px 35px;
+}
+  /* ------------------ adoption -----------*/
+.adoption {
+  display: block;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 30px;
+}
+
+.text-adopt {
+  display: block;
+  font-size: 20px;
+  margin: 0;
+  padding-top: 10px;
+}
+  /* ------------------ adoption -----------*/
+
+ /* ------------------------ Container2 -----------------*/
+ .container2 {
+    display: block;
+    position: relative;
+}
+
+.title2 {
+    display: block;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.home1 {
+    display: block;
+    position: relative;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+/* ---------------------- Container3 -------------------*/
+.container3{
+    display: block;
+    position: relative;
+    
+}
+
+.group1 {
+  display: block;
+  position: relative;
+}
+.home2 {
+    display: block;
+    position: relative;
+    width: 50%;
+    margin: 0px auto;
+    padding: 20px 15px 0 15px;
+    float: left;
+
+}
+
+.group2 {
+  display: block;
+  position: relative;
+}
+.home3 {
+  display: block;
+    width: 50%;
+    margin: 0px auto;
+    padding: 20px 15px 0 15px;
+    float: left;
+
+}
+
+.group3 {
+  display: block;
+  position: relative;
+}
+.home4 {
+  display: block;
+    width: 50%;
+    margin: 0px auto;
+    padding: 20px 15px 0 15px;
+    float: left;
+}
+
+.group4 {
+  display: block;
+  position: relative;
+}
+.home5 {
+  display: block;
+    width: 50%;
+    margin: 0px auto;
+    padding: 20px 15px 0 15px;
+    float: left;
+}
+     
+.caption {
+  display: block;
+  position: relative;
+}
+
+.text3 {
+  display: none;
+}
+.text4 {
+  display: none;
+}
+.text5 {
+  display: none;
+}
+.text6 {
+  display: none;
+}
+
+
+
+
+ /* ---------------- volunteer --------*/
+.container-vol {
+  display: block;
+  position: relative;
+  margin: 10px 20px 10px 20px;
+  text-align: center;
+}
+.group-vol {
+ display: inline-block;
+}
+.vol {
+  width: 45%;
+  padding: 10px;
+}
+.caption-vol {
+  display: block;
+}
+.text-vol {
+  display: inline-block;
+  font-size: 25px;
+  margin: 0;
+  width: 45%;
+}
+
+ .container-vol1 {
+  display: none;
+}
+
+
+ /* ---------------- volunteer --------*/
+
+ /* ---------------- about ------------*/
+ .contact {
+  display: block;
+  text-align: center;
+  font-size: 20px;
+}
+
+.address {
+  display: block;
+  text-align: center;
+  font-size: 20px;
+}
+
+.about-image {
+  display: block;
+  text-align: center;
+  width: 100%;
+}
+/* ---------------- about ------------*/
+
+/* --------------- social media ------*/
+
+.footer-media {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+}
+.div-social {
+  display: block;
+}
+  
+  .foot-title {
+    display: inline-block;
+    width: 100%;
+    font-size: 20px;
+    margin-top: 30px;
+}
+  
+  .social {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    padding: 10px;
+  }
+  
+  .fa {
+    padding: 25px;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  .fa:hover {
+    opacity: 0.7;
+  }
+  .fa-facebook {
+    background: none;
+    /*color: rgb(157, 173, 127);*/
+    color: #3B5998;
+  }
+  .fa-twitter {
+    background: none;
+    /*color: rgb(157, 173, 127);*/
+    color: #55ACEE
+  }
+  .fa-instagram {
+    background: none;
+    color: #125688;
+  }
+  .fa-pinterest {
+    background: none;
+    color: #cb2027;
+  }
+  /* --------------- social media ------*/
+
+
+  /* --------------------- Footer ---------------------*/
+  footer {
+    display: block;
+    background-color: rgb(200,198,198);
+    border-top: solid 3px rgb(75,101,135);
+    margin: 0px 30px 0 30px;
+    
+  }
+  .foot-info {
+    display: block;
+    text-align: center;
+    font-family: 'Courgette', cursive;
+    font-size: 16px;
+    color: rgb(75,101,135);
+    padding: 20px;
+  }
+  /* --------------------- Footer ---------------------*/
+
+
+}
+
+
+
+
+
+/*----------------------------------------------*/
+@media only screen and (min-width: 850px) {
+
+    /* For desktop: */
+    .col-1 {
+      width: 8.33%;
+    }
+    .col-2 {
+      width: 16.66%;
+    }
+    .col-3 {
+      width: 25%;
+    }
+    .col-4 {
+      width: 33.33%;
+    }
+    .col-5 {
+      width: 41.66%;
+    }
+    .col-6 {
+      width: 50%;
+    }
+    .col-7 {
+      width: 58.33%;
+    }
+    .col-8 {
+      width: 66.66%;
+    }
+    .col-9 {
+      width: 75%;
+    }
+    .col-10 {
+      width: 83.33%;
+    }
+    .col-11 {
+      width: 91.66%;
+    }
+    .col-12 {
+      width: 100%;
+    }
+
+    /* ----------------------- Header ----------------------*/
+  header {
+    display: block;
+    width: 100%;
+    
+}
+
+  .header-image {
+      display: block;
+      width: 60%;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 0;
+  }
+
+  .title {
+      text-align: center;
+      font-size: 55px;
+  }
+
+  nav {
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+  }
+  
+  nav li a {
+    display: block;
+    color: rgb(0,0,0);
+    font-size: 25px;
+    font-family: 'Handlee', cursive;
+    text-decoration: none;
+    padding: 0 10px 0 10px;
+   
+  }
+  
+  li a:hover {
+    color: rgb(85, 113, 116);
+  }
+
+  /* ----------------------- Header ----------------------*/
+  header {
+    display: block;
+    width: 100%;
+    
+}
+
+  .header-image {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 0;
+  }
+
+  .title {
+      text-align: center;
+      font-size: 60px;
+  }
+
+  nav {
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+  }
+  
+  nav li a {
+    display: block;
+    color: rgb(0,0,0);
+    font-size: 30px;
+    font-family: 'Handlee', cursive;
+    text-decoration: none;
+    padding: 0 10px 0 10px;
+   
+  }
+  
+  li a:hover {
+    color: rgb(85, 113, 116);
+  }
+  /* --------------------------Container1 -----------------*/
+
+.title1 {
+  display: block;
+  font-size: 40px;
+  margin-bottom: 10px;
+    
+}
+.text1 {
+  display: block;
+  font-size: 35px;
+  text-align: center;
+  margin: 0px 60px 0px 60px;
+}
+
+.adoption {
+  display: block;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 50px;
+}
+.text-adopt {
+  display: block;
+  text-align: center;
+  font-size: 40px;
+}
+
+ /* ------------------------ Container2 -----------------*/
+ .container2 {
+    display: block;
+    position: relative;
+}
+
+.title2 {
+    display: block;
+    text-align: center;
+    font-size: 60px;
+}
+
+.home1 {
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+  /* ---------------------- Container3 -------------------*/
+.container3{
+    display: block;
+    position: relative;
+}
+
+.group1 {
+  display: block;
+}
+.home2 {
+    display: block;
+    width: 25%;
+    margin: 0px auto;
+    padding: 20px 15px 0 15px;
+    float: left;
+
+}
+
+.group2 {
+  display: inline;
+}
+.home3 {
+  display: block;
+    width: 25%;
+    margin: 0px auto;
+    padding: 20px 15px 0 15px;
+    float: left;
+
+}
+
+
+.group3 {
+  display: inline;
+}
+
+.home4 {
+  display: block;
+    width: 25%;
+    margin: 0px auto;
+    padding: 20px 15px 0 15px;
+    float: left;
+
+}
+
+.group4 {
+  display: inline;
+}
+.home5 {
+  display: block;
+    width: 25%;
+    margin: 0px auto;
+    padding: 20px 15px 0 15px;
+    float: left;
+
+}
+.caption {
+  display: block;
+  position: relative;
+}
+.text3 {
+  display: inline-block;
+  font-size: 30px;
+  margin: 0;
+  padding: 15px 0 0 15px;
+  width: 24%;
+ 
+  
+}
+
+/* ---------------- volunteer --------*/
+.container-vol {
+  display: block;
+  position: relative;
+  margin: 10px 20px 10px 20px;
+  text-align: center;
+}
+.group-vol {
+ display: inline-block;
+}
+.vol {
+  width: 45%;
+  padding: 10px;
+}
+.caption-vol {
+  display: block;
+}
+.text-vol {
+  display: inline-block;
+  font-size: 25px;
+  margin: 0;
+  width: 45%;
+}
+
+ .container-vol1 {
+  display: block;
+  position: relative;
+  margin: 10px 20px 10px 20px;
+  text-align: center;
+}
+.group-vol1 {
+  display: inline-block;
+ }
+ .vol {
+   width: 45%;
+   padding: 10px;
+ }
+ .caption-vol1 {
+   display: block;
+ }
+ .text-vol1 {
+   display: inline-block;
+   font-size: 25px;
+   margin: 0;
+   width: 45%;
+ }
+ /* ---------------- volunteer --------*/
+
+ /* ---------------- about ------------*/
+ .contact {
+   display: block;
+   text-align: center;
+   font-size: 30px;
+ }
+
+ .address {
+   display: block;
+   text-align: center;
+   font-size: 30px;
+ }
+
+ .about-image {
+   display: block;
+   width: 100%;
+ }
+ /* ---------------- about ------------*/
+
+/* --------------------- social media ---------------------*/
+.footer-media {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+}
+
+.div-social {
+  display: block;
+}
+
+.foot-title {
+  display: inline-block;
+  width: 100%;
+  font-size: 20px;
+  margin-top: 40px;
+}
+
+.social {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  padding: 20px;
+  
+}
+
+
+
+.fa {
+  padding: 10px;
+  font-size: 45px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: none;
+  /*color: rgb(157, 173, 127);*/
+  color: #3B5998;
+}
+
+.fa-twitter {
+  background: none;
+  /*color: rgb(157, 173, 127);*/
+  color: #55ACEE
+}
+
+.fa-instagram {
+  background: none;
+  color: #125688;
+}
+
+.fa-pinterest {
+  background: none;
+  color: #cb2027;
+}
+
+/* --------------------- Footer ---------------------*/
+footer {
+  display: block;
+  background-color: rgb(200,198,198);
+  border-top: solid 3px rgb(75,101,135);
+  margin: 0px 30px 0 30px;
+  
+}
+.foot-info {
+  display: block;
+  text-align: center;
+  font-family: 'Courgette', cursive;
+  font-size: 16px;
+  color: rgb(75,101,135);
+  padding: 20px;
+}
+/* --------------------- Footer ---------------------*/
+
+      
+}
