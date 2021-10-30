@@ -5,3 +5,8 @@
 <ul>
 <li><a href="Lab-1/WEBT-2310-Lab1/index.html" target="_blank">Lab 1</a></li>
 </ul> 
+
+
+<ul>
+<li><a href="Lab-2/WEBT-2310-Lab-2/index.html" taget="_blank">Lab 2</a></li>
+<ul>
