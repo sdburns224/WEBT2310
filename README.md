@@ -11,3 +11,9 @@
 <ul>
 <li><a href="Lab-2/WEBT-2310-Lab2/index.html" target="_blank">Lab 2</a></li>
 <ul>
+
+<h1>Project 3</h1>
+
+<ul>
+<li><a href="Lab-2/WEBT-2310-Lab3/index.html" target="_blank">Lab 3</a></li>
+<ul>
