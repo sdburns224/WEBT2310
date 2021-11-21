@@ -1,0 +1,130 @@
+.body {
+    overflow-x: hidden;
+}
+
+.navbar {
+    background-color: #DA0037;
+}
+
+.navbar-nav {
+    font-family: 'Lobster', cursive;
+}
+
+
+.nav-link {
+    color: white;
+    margin-right: 1em;
+    font-size: 4vh;
+}
+
+.nav-link:hover{
+    color: black;
+}
+
+.btn:hover {
+    background-color:#DA0037;
+    color: white;
+    border: none;
+}
+
+.bg-image{
+    position: relative;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-height: 700px;
+}
+
+.bg-image .mask{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    color:#fff;
+}
+
+.bg-image .mask .logo{
+    height: 100%;
+    max-width: 100%;
+    display: flex!important;
+    align-items: center!important;
+    justify-content: center!important;
+    flex-direction: column;
+}
+
+
+.container-fluid {
+    padding: 0;
+    margin: 0;
+}
+
+.heading {
+    color:#DA0037;
+    font-family: 'Lobster', cursive;
+}
+
+.footer {
+    background-color: black;
+}
+
+.social i {
+    font-size: 2em;
+    padding: 0 .5em 1em 0;
+}
+
+.footer a {
+    color: white;
+}
+
+.footer a:hover {
+    color:#DA0037
+}
+
+.hours-sm {
+    display: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.carousel-inner {
+    background-color: black;
+}
+
+.main {
+    width: 70%;
+    margin: 0 auto;
+}
+
+  .ekko-lightbox-nav-overlay a {
+      -ms-flex:1;
+      flex:1;
+      display:-ms-flexbox;
+      display:flex;
+      -ms-flex-align:center;
+      align-items:center;
+      opacity:0;
+      transition:opacity .5s;
+      color:#DA0037;font-size:30px;
+      z-index:1
+    }
+
+
+
+
+@media screen and (max-width: 800px) {
+    .hours-ext {
+        display: none;
+    }
+
+    .hours-sm {
+        display: grid;
+    }
+
+}
+
