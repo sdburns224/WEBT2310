@@ -21,5 +21,5 @@
 <h1>Project 4 Teams</h1>
 
 <ul>
-<li><a href="Lab-4-Teams/WEBT-2310-Team-Lab-4/index.html" target="_blank">Lab 3</a></li>
+<li><a href="Lab-4-Teams/WEBT-2310-Team-Lab-4/index.html" target="_blank">Lab 4</a><li>
 <ul>
